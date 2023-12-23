@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{date}-{rfid_machine}-{rfid_operator_name}",
+ "creation": "2023-08-01 11:35:07.922528",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rfid_operator_id",
+  "rfid_machine",
+  "column_break_fdciq",
+  "rfid_operator_name",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "rfid_machine",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "RFID Machine",
+   "options": "\nRFID 1\nRFID 2\nRFID 3",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fdciq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "rfid_operator_id.full_name",
+   "fieldname": "rfid_operator_name",
+   "fieldtype": "Data",
+   "label": "Rfid Operator Name"
+  },
+  {
+   "default": "Now",
+   "fieldname": "date",
+   "fieldtype": "Datetime",
+   "label": "Date"
+  },
+  {
+   "fieldname": "rfid_operator_id",
+   "fieldtype": "Link",
+   "label": "Rfid Operartor ID",
+   "options": "User",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-26 15:09:46.411378",
+ "modified_by": "Administrator",
+ "module": "RFID",
+ "name": "RFID Master Setting",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

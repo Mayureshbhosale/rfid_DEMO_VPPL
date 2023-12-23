@@ -1,0 +1,159 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-01 11:53:04.116258",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rfid_1",
+  "rfid_2",
+  "rfid_3",
+  "column_break_6pckj",
+  "rfid1_status",
+  "rfid2_status",
+  "rfid3_status",
+  "section_break_vrgrt",
+  "column_break_tx3g6",
+  "ip_of_rfid1",
+  "ip_of_rfid2",
+  "ip_of_rfid3",
+  "column_break_hcw0o",
+  "ip_of_indicator1",
+  "ip_of_indicator2",
+  "ip_of_indicator3",
+  "column_break_hq027",
+  "port_number_of_indicator1",
+  "port_number_of_indicator2",
+  "port_number_of_indicator3"
+ ],
+ "fields": [
+  {
+   "fieldname": "rfid_1",
+   "fieldtype": "Data",
+   "label": "RFID 1"
+  },
+  {
+   "fieldname": "rfid_2",
+   "fieldtype": "Data",
+   "label": "RFID 2"
+  },
+  {
+   "fieldname": "rfid_3",
+   "fieldtype": "Data",
+   "label": "RFID 3"
+  },
+  {
+   "fieldname": "column_break_6pckj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rfid1_status",
+   "fieldtype": "Data",
+   "label": "RFID1 Status"
+  },
+  {
+   "default": "Not Connected.",
+   "fieldname": "rfid2_status",
+   "fieldtype": "Data",
+   "label": "RFID2 Status"
+  },
+  {
+   "default": "Not Connected.",
+   "fieldname": "rfid3_status",
+   "fieldtype": "Data",
+   "label": "RFID3 Status"
+  },
+  {
+   "fieldname": "section_break_vrgrt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_tx3g6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ip_of_rfid1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "IP of RFID1"
+  },
+  {
+   "fieldname": "ip_of_rfid2",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "IP of RFID2"
+  },
+  {
+   "fieldname": "ip_of_rfid3",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "IP of RFID3"
+  },
+  {
+   "fieldname": "column_break_hcw0o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ip_of_indicator1",
+   "fieldtype": "Data",
+   "label": "IP of Indicator1(RFID 1)"
+  },
+  {
+   "default": "192.168.10.244",
+   "fieldname": "ip_of_indicator2",
+   "fieldtype": "Data",
+   "label": "IP of Indicator2(RFID 2)"
+  },
+  {
+   "fieldname": "ip_of_indicator3",
+   "fieldtype": "Data",
+   "label": "IP of Indicator3(RFID 3)"
+  },
+  {
+   "fieldname": "column_break_hq027",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "port_number_of_indicator1",
+   "fieldtype": "Data",
+   "label": "PORT Number of indicator1(RFID 1)"
+  },
+  {
+   "default": "6000",
+   "fieldname": "port_number_of_indicator2",
+   "fieldtype": "Data",
+   "label": "PORT Number of indicator2(RFID 2)"
+  },
+  {
+   "fieldname": "port_number_of_indicator3",
+   "fieldtype": "Data",
+   "label": "PORT Number of indicator3(RFID 3)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-08-05 13:37:16.359026",
+ "modified_by": "Administrator",
+ "module": "RFID",
+ "name": "Rfid tag Reading",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
